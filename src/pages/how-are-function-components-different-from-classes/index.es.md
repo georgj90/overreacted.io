@@ -6,7 +6,7 @@ spoiler: Son un Pokémon completamente diferente.
 
 ¿En React, en qué se diferencian los componentes de función de las clases?
 
-Durante un tiempo, la respuesta canónica ha sido que las clases proporcionan accesos a más funcionalidades (como el estado). Con [los Hooks](https://reactjs.org/docs/hooks-intro.html), ya eso dejó de ser cierto.
+Durante un tiempo, la respuesta canónica ha sido que las clases proporcionan accesos a más funcionalidades (como el estado). Con [los Hooks](https://reactjs.org/docs/hooks-intro.html), eso dejó de ser cierto.
 
 Quizá has escuchado que uno de ellos es mejor en cuanto a rendimiento. ¿Cuál? Muchos de los análisis que se encuentran tienen [fallas](https://medium.com/@dan_abramov/this-benchmark-is-indeed-flawed-c3d6b5b6f97f?source=your_stories_page---------------------------), por lo que en mi caso sería cuidadoso en [sacar conclusiones](https://github.com/ryardley/hooks-perf-issues/pull/2) a partir de ellos. El rendimiento depende principalmente de lo que hace el código y no de si escoges una función o una clase. En nuestra observación, las diferencias en el rendimiento son despreciables, aunque las estrategias de optimización son algo [distintas](https://reactjs.org/docs/hooks-faq.html#are-hooks-slow-because-of-creating-functions-in-render).
 
